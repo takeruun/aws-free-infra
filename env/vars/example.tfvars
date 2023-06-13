@@ -1,0 +1,5 @@
+domain              = "samplet"
+app_name            = "aws-free-infra"
+aws_profile         = "sample"
+aws_region          = "sample"
+remote_state_bucket = "sample"
