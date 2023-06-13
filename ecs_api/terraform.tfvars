@@ -1,0 +1,6 @@
+rds_db_name                   = "aws-free-infra_db"
+rds_username                  = "root"
+rds_password                  = "password"
+s3_user_aws_access_key_id     = "AKIAS5IJXDDL5X4WOTXE"
+s3_user_aws_secret_access_key = "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"
+token_key                     = "BJTX5GNWLkA0ZlvmjKqr5D4b8UGafQ4yH0lQmWZGmSZSKfljtb8Ykw=="

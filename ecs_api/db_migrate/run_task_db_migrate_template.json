@@ -1,0 +1,9 @@
+{
+  "containerOverrides": [
+      {
+          "name": "${app_name}_api",
+          "command": ["echo", "migration"]
+      }
+      
+  ]
+}

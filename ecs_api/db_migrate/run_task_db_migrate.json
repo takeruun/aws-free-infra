@@ -1,0 +1,9 @@
+{
+  "containerOverrides": [
+      {
+          "name": "aws-free-infra_api",
+          "command": ["echo", "migration"]
+      }
+      
+  ]
+}
