@@ -4,6 +4,23 @@
 
 ### 初めに
 
+#### 前提設定
+./env/vars/example.tfvars
+```
+domain              = "samplet"
+app_name            = "aws-free-infra"
+aws_profile         = "sample"
+aws_region          = "sample"
+remote_state_bucket = "sample"
+```
+|変数|説明|
+-|-
+domain|ドメイン
+app_name |アプリ名（バックエンドのECRに使用される)
+aws_profile | AWS実行アカウント
+aws_region | AWS実行リージョン
+remote_state_bucket | tfstate保存バケット
+
 #### state 管理用 S3 と 同時更新のブロックする Dynamodb 作成
 1. AWS profile 設定
 terraform 実行できるように AWS profile を設定する
